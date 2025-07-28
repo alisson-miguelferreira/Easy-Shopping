@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    color: #5D5D7D;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container-left {
+    width: 60%;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-right {
+    background-color: rgba(93, 93, 125, 0.16);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 40px;
+    
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    max-width: 368px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.6;
+    margin-bottom: 24px;
+    max-width: 480px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #9499EA;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    filter: drop-shadow(0px 10px 24px rgba(148, 153, 234, 0.10));
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+a {
+    font-size: 20px;
+    line-height: 41px;
+    cursor: pointer;
+    margin: 0 20px;
+    color: #5D5D7D;
+    text-decoration: none;
+}
+
+a:nth-child(2) {
+    opacity: 0.4;
+}
+
+a:hover {
+    opacity: 0.4;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Responsivo (pequenas telas) */
+@media screen and (max-width: 900px) {
+    body {
+        overflow-y: auto;
+    }
+
+    .wrapper {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container-left, .container-right {
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    button {
+        margin: 20px auto;
+    }
+
+    img {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    header {
+        display: none;
+    }
+}
+

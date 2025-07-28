@@ -29,7 +29,7 @@ O projeto simula a apresentação de um serviço de compras online via dispositi
 ---
 
 🌐 **Acesse o Projeto Online**  
-➡️ [Clique aqui para visualizar](https://alisson-miguelferreira.github.io/easy-shopping)
+➡️ [Clique aqui para visualizar](https://alisson-miguelferreira.github.io/Easy-Shopping/)
 
 ---
 
